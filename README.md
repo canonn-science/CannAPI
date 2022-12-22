@@ -42,7 +42,7 @@ This project is currently undergoing and an entire rewrite. If you are looking f
 - [ ] ☁️ Clouds
 - [ ] 🌋 Geology
 - [ ] 👾 Guardians
-- [ ] 👽 Thargoid
+- [ ] 👽 Thargoids
 - [ ] ✈️ Tourist
 
 #### Stellar Information

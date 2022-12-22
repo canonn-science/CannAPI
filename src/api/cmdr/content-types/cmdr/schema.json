@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cmdrs",
+  "info": {
+    "singularName": "cmdr",
+    "pluralName": "cmdrs",
+    "displayName": "Commanders"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "cmdrName": {
+      "type": "string"
+    }
+  }
+}

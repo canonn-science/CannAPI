@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stellar_regions",
+  "info": {
+    "singularName": "stellar-region",
+    "pluralName": "stellar-regions",
+    "displayName": "Stellar - Regions"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "regionName": {
+      "type": "string"
+    }
+  }
+}

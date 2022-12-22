@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stellar_rings",
+  "info": {
+    "singularName": "stellar-ring",
+    "pluralName": "stellar-rings",
+    "displayName": "Stellar - Rings"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "ringName": {
+      "type": "string"
+    }
+  }
+}
