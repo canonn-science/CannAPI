@@ -1,12 +1,13 @@
 {
-  "name": "cann-api",
+  "name": "cannapi",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Canonn Science API for research data",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "clean": "rm -Rf node_modules build .cache yarn.lock",
     "strapi": "strapi"
   },
   "devDependencies": {},
@@ -17,14 +18,28 @@
     "better-sqlite3": "7.4.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Canonn R&D",
+    "email": "rd@canonn.technology",
+    "url": "https://canonn.science"
   },
+  "maintainers": [
+    {
+      "name": "dmehaffy",
+      "email": "dmehaffy@canonn.tech",
+      "discord": "DMehaffy#1337",
+      "url": "https://canonn.science"
+    },
+    {
+      "name": "NoFool",
+      "discord": "LCU No Fool Like One#4293"
+    }
+  ],
   "strapi": {
-    "uuid": "07c63f1c-c160-4f8b-a5fd-c511a90cea60"
+    "uuid": "487b0283-ba92-4503-96ef-8f62b4293b36"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "GPL-3.0"
 }
