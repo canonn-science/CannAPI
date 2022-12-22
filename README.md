@@ -13,14 +13,11 @@
     - [🙊 Intro](#-intro)
     - [🚦 Current Status](#-current-status)
     - [✨ Features \& Supported Sites](#-features--supported-sites)
-      - [🛸 Anomalies](#-anomalies)
-      - [🌳 Biology](#-biology)
-      - [☁️ Clouds](#️-clouds)
-      - [🌋 Geology](#-geology)
-      - [👾 Guardians](#-guardians)
-      - [👽 Thargoid](#-thargoid)
-      - [✈️ Tourist](#️-tourist)
-      - [🤔 Misc](#-misc)
+      - [Site Types](#site-types)
+      - [Stellar Information](#stellar-information)
+      - [Misc Data](#misc-data)
+      - [Meta information](#meta-information)
+      - [External Website Features](#external-website-features)
     - [🤔 Motivation](#-motivation)
     - [💁 Contributing](#-contributing)
     - [✋ Requirements](#-requirements)
@@ -38,98 +35,43 @@ This project is currently undergoing and an entire rewrite. If you are looking f
 
 ### ✨ Features & Supported Sites
 
-#### 🛸 Anomalies
+#### Site Types
 
-| Type             | Status | Notes |
-|------------------|--------|-------|
-| E-Type Anomalies | ⌛      | WIP   |
-| K-Type Anomalies | ⌛      | WIP   |
-| L-Type Anomalies | ⌛      | WIP   |
-| P-Type Anomalies | ⌛      | WIP   |
-| Q-Type Anomalies | ⌛      | WIP   |
-| T-Type Anomalies | ⌛      | WIP   |
+- [ ] 🛸 Anomalies
+- [ ] 🌳 Biology
+- [ ] ☁️ Clouds
+- [ ] 🌋 Geology
+- [ ] 👾 Guardians
+- [ ] 👽 Thargoid
+- [ ] ✈️ Tourist
 
-#### 🌳 Biology
+#### Stellar Information
 
-| Type          | Status | Notes |
-|---------------|--------|-------|
-| Aleoids       | ⌛      | WIP   |
-| Amphora Plant | ⌛      | WIP   |
-| Anemone       | ⌛      | WIP   |
-| Bacterial     | ⌛      | WIP   |
-| Bark Mounds   | ⌛      | WIP   |
-| Brain Tree    | ⌛      | WIP   |
-| Cactoid       | ⌛      | WIP   |
-| Clypeus       | ⌛      | WIP   |
-| Conchas       | ⌛      | WIP   |
-| Electricae    | ⌛      | WIP   |
-| Fonticulus    | ⌛      | WIP   |
-| Fumerolas     | ⌛      | WIP   |
-| Fungoids      | ⌛      | WIP   |
-| Osseus        | ⌛      | WIP   |
-| Recepta       | ⌛      | WIP   |
-| Shards        | ⌛      | WIP   |
-| Shrubs        | ⌛      | WIP   |
-| Stratum       | ⌛      | WIP   |
-| Tubers        | ⌛      | WIP   |
-| Tubus         | ⌛      | WIP   |
-| Tussocks      | ⌛      | WIP   |
+- [ ] Regions
+- [ ] Systems
+- [ ] Bodies
+- [ ] Rings
 
-#### ☁️ Clouds
+#### Misc Data
 
-| Type              | Status | Notes |
-|-------------------|--------|-------|
-| Aster             | ⌛      | WIP   |
-| Calcite Plates    | ⌛      | WIP   |
-| Chalice Pod       | ⌛      | WIP   |
-| Collared Pod      | ⌛      | WIP   |
-| Gyre              | ⌛      | WIP   |
-| Ice Crystals      | ⌛      | WIP   |
-| Lagrange Cloud    | ⌛      | WIP   |
-| Metallic Crystals | ⌛      | WIP   |
-| Mineral Spheres   | ⌛      | WIP   |
-| Mollusc           | ⌛      | WIP   |
-| Peduncle          | ⌛      | WIP   |
-| Quadripartite     | ⌛      | WIP   |
-| Rhizome           | ⌛      | WIP   |
-| Silicate Crystals | ⌛      | WIP   |
-| Stolon            | ⌛      | WIP   |
-| Storm Cloud       | ⌛      | WIP   |
-| Void              | ⌛      | WIP   |
+- [ ] CMDR Information
+- [ ] 🔫 Kills
+- [ ] Site Reports
+- [ ] Material Gathering
+- [ ] Codex, Event, and FSS Discovery
+- [ ] Points of Interest
 
-#### 🌋 Geology
+#### Meta information
 
-| Type       | Status | Notes |
-|------------|--------|-------|
-| Fumarole   | ⌛      | WIP   |
-| Gas Vent   | ⌛      | WIP   |
-| Geyser     | ⌛      | WIP   |
-| Lava Spout | ⌛      | WIP   |
+- [ ] 📊 Analytics
+- [ ] ❌ Blacklists
+- [ ] Client Reporting
 
-#### 👾 Guardians
+#### External Website Features
 
-| Type                | Status | Notes |
-|---------------------|--------|-------|
-| Guardian Ruins      | ⌛      | WIP   |
-| Guardian Structures | ⌛      | WIP   |
-
-#### 👽 Thargoid
-
-| Type                | Status | Notes |
-|---------------------|--------|-------|
-| Thargoid Barnacles  | ⌛      | WIP   |
-| Thargoid Structures | ⌛      | WIP   |
-
-#### ✈️ Tourist
-
-| Type             | Status | Notes |
-|------------------|--------|-------|
-| Planets          | ⌛      | WIP   |
-| Generation Ships | ⌛      | WIP   |
-
-#### 🤔 Misc
-
-TBD
+- [ ] Dynamic menu data for the 3D Maps
+- [ ] Feature Flag control for various tool websites
+- [ ] URL Link Shortening
 
 ### 🤔 Motivation
 
