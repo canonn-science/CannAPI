@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guardian_sites",
+  "info": {
+    "singularName": "guardian-site",
+    "pluralName": "guardian-sites",
+    "displayName": "Sites - Guardian"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "siteID": {
+      "type": "string"
+    }
+  }
+}

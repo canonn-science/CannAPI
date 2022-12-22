@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cloud_sites",
+  "info": {
+    "singularName": "cloud-site",
+    "pluralName": "cloud-sites",
+    "displayName": "Sites - Cloud"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "siteID": {
+      "type": "string"
+    }
+  }
+}
