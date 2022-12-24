@@ -1,7 +1,10 @@
 module.exports = ({ env }) => ({
   email: {
     config: {
-      provider: 'sendmail',
+      provider: 'sendgrid',
+      providerOptions: {
+        apiKey: env('SENDGRID_API_KEY'),
+      },
       settings: {
         defaultFrom: 'no-reply@canonn.tech',
         defaultReplyTo: 'no-reply@canonn.tech',
