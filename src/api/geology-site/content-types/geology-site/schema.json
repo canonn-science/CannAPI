@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "geology_sites",
+  "info": {
+    "singularName": "geology-site",
+    "pluralName": "geology-sites",
+    "displayName": "Sites - Geology"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "siteID": {
+      "type": "string"
+    }
+  }
+}

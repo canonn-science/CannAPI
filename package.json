@@ -8,25 +8,31 @@
     "start": "strapi start",
     "build": "strapi build",
     "clean": "rm -Rf node_modules build .cache yarn.lock",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "postinstall": "patch-package",
+    "pp": "patch-package"
   },
   "devDependencies": {},
   "dependencies": {
     "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
-    "@chartbrew/plugin-strapi": "^0.4.2",
     "@strapi/plugin-color-picker": "^4.5.4",
-    "@strapi/plugin-i18n": "4.6.0-beta.1",
     "@strapi/plugin-sentry": "^4.5.4",
     "@strapi/plugin-users-permissions": "4.6.0-beta.1",
+    "@strapi/provider-email-sendgrid": "^4.5.4",
     "@strapi/strapi": "4.6.0-beta.1",
-    "add": "^2.0.6",
-    "better-sqlite3": "7.4.6",
+    "mysql": "^2.18.1",
+    "passport-discord": "^0.1.4",
+    "patch-package": "^6.5.0",
+    "postinstall-postinstall": "^2.1.0",
     "strapi-plugin-config-sync": "^1.1.0",
     "strapi-plugin-menus": "^1.2.0",
     "strapi-plugin-multi-select": "^1.1.0",
     "strapi-plugin-redis": "^1.0.1",
     "strapi-plugin-rest-cache": "^4.2.5",
-    "yarn": "^1.22.19"
+    "strapi-provider-rest-cache-redis": "^4.2.5"
+  },
+  "resolutions": {
+    "strapi-plugin-redis": "^1.0.1"
   },
   "author": {
     "name": "Canonn R&D",

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "misc_sites",
+  "info": {
+    "singularName": "misc-site",
+    "pluralName": "misc-sites",
+    "displayName": "Sites - Misc"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "siteID": {
+      "type": "string"
+    }
+  }
+}

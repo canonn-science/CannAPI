@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "biology_sites",
+  "info": {
+    "singularName": "biology-site",
+    "pluralName": "biology-sites",
+    "displayName": "Sites - Biology"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "siteID": {
+      "type": "string"
+    }
+  }
+}

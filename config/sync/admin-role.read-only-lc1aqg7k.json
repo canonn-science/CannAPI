@@ -1,0 +1,155 @@
+{
+  "name": "Read-Only",
+  "code": "read-only-lc1aqg7k",
+  "description": "Read-Only role for seeing data",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::anomaly-site.anomaly-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::biology-site.biology-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cloud-site.cloud-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::cmdr.cmdr",
+      "properties": {
+        "fields": [
+          "cmdrName"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::geology-site.geology-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::guardian-site.guardian-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::report.report",
+      "properties": {
+        "fields": [
+          "reportID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::stellar-body.stellar-body",
+      "properties": {
+        "fields": [
+          "bodyName"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::stellar-region.stellar-region",
+      "properties": {
+        "fields": [
+          "regionName"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::stellar-ring.stellar-ring",
+      "properties": {
+        "fields": [
+          "ringName"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::stellar-system.stellar-system",
+      "properties": {
+        "fields": [
+          "systemName"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::thargoid-site.thargoid-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::tourist-site.tourist-site",
+      "properties": {
+        "fields": [
+          "siteID"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

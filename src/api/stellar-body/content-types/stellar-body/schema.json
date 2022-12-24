@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stellar_bodies",
+  "info": {
+    "singularName": "stellar-body",
+    "pluralName": "stellar-bodies",
+    "displayName": "Stellar - Bodies"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "bodyName": {
+      "type": "string"
+    }
+  }
+}
