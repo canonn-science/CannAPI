@@ -42,7 +42,7 @@ module.exports = ({ env }) => [
     },
   },
   'strapi::logger',
-  'strapi::response-time',
+  'strapi::responseTime',
   {
     name: 'strapi::query',
     config: {
@@ -51,18 +51,7 @@ module.exports = ({ env }) => [
       depth: env.int('QUERY_DEPTH', 20),
     },
   },
-  {
-    name: 'strapi::body',
-    config: {
-      multipart: env('BODY_PARSER_MULTIPART', true),
-      patchKoa: env('BODY_PARSER_PATCH_KOA', true),
-      jsonLimit: env('BODY_PARSER_JSON_LIMIT', '1mb'),
-      formLimit: env('BODY_PARSER_FORM_LIMIT', '56kb'),
-      textLimit: env('BODY_PARSER_TEXT_LIMIT', '56kb'),
-      encoding: env('BODY_PARSER_ENCODING', 'utf-8'),
-      formidable: env.json('BODY_PARSER_FORMIDABLE'),
-    },
-  },
+  'strapi::body',
   'strapi::session',
   'strapi::favicon',
   'strapi::public',

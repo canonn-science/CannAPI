@@ -1,3 +1,5 @@
+const DiscordStrategy = require("passport-discord");
+
 module.exports = ({ env }) => ({
   providers: [
     {
