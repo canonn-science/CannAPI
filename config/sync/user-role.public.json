@@ -1,0 +1,115 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::anomaly-site.anomaly-site.find"
+    },
+    {
+      "action": "api::anomaly-site.anomaly-site.findOne"
+    },
+    {
+      "action": "api::biology-site.biology-site.find"
+    },
+    {
+      "action": "api::biology-site.biology-site.findOne"
+    },
+    {
+      "action": "api::cloud-site.cloud-site.find"
+    },
+    {
+      "action": "api::cloud-site.cloud-site.findOne"
+    },
+    {
+      "action": "api::cmdr.cmdr.find"
+    },
+    {
+      "action": "api::cmdr.cmdr.findOne"
+    },
+    {
+      "action": "api::geology-site.geology-site.find"
+    },
+    {
+      "action": "api::geology-site.geology-site.findOne"
+    },
+    {
+      "action": "api::guardian-site.guardian-site.find"
+    },
+    {
+      "action": "api::guardian-site.guardian-site.findOne"
+    },
+    {
+      "action": "api::report.report.create"
+    },
+    {
+      "action": "api::report.report.find"
+    },
+    {
+      "action": "api::report.report.findOne"
+    },
+    {
+      "action": "api::stellar-body.stellar-body.find"
+    },
+    {
+      "action": "api::stellar-body.stellar-body.findOne"
+    },
+    {
+      "action": "api::stellar-region.stellar-region.find"
+    },
+    {
+      "action": "api::stellar-region.stellar-region.findOne"
+    },
+    {
+      "action": "api::stellar-ring.stellar-ring.find"
+    },
+    {
+      "action": "api::stellar-ring.stellar-ring.findOne"
+    },
+    {
+      "action": "api::stellar-system.stellar-system.find"
+    },
+    {
+      "action": "api::stellar-system.stellar-system.findOne"
+    },
+    {
+      "action": "api::thargoid-site.thargoid-site.find"
+    },
+    {
+      "action": "api::thargoid-site.thargoid-site.findOne"
+    },
+    {
+      "action": "api::tourist-site.tourist-site.find"
+    },
+    {
+      "action": "api::tourist-site.tourist-site.findOne"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.emailConfirmation"
+    },
+    {
+      "action": "plugin::users-permissions.auth.forgotPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.auth.resetPassword"
+    },
+    {
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation"
+    }
+  ]
+}

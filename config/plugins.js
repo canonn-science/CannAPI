@@ -1,4 +1,13 @@
 module.exports = ({ env }) => ({
+  email: {
+    config: {
+      provider: 'sendmail',
+      settings: {
+        defaultFrom: 'no-reply@canonn.tech',
+        defaultReplyTo: 'no-reply@canonn.tech',
+      }
+    }
+  },
   sentry: {
     enabled: env('SENTRY_ENABLED', false),
     config: {
