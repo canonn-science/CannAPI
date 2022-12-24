@@ -12,7 +12,6 @@
     "postinstall": "patch-package",
     "pp": "patch-package"
   },
-  "devDependencies": {},
   "dependencies": {
     "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
     "@strapi/plugin-color-picker": "^4.5.4",
@@ -31,6 +30,7 @@
     "strapi-plugin-rest-cache": "^4.2.5",
     "strapi-provider-rest-cache-redis": "^4.2.5"
   },
+  "devDependencies": {},
   "resolutions": {
     "strapi-plugin-redis": "^1.0.1"
   },
