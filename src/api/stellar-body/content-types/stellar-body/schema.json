@@ -95,6 +95,30 @@
       "repeatable": false,
       "component": "edsm.body-material",
       "required": false
+    },
+    "biologySites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-biology.sites-biology",
+      "mappedBy": "body"
+    },
+    "geologySites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-geology.sites-geology",
+      "mappedBy": "body"
+    },
+    "guardianSites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-guardian.sites-guardian",
+      "mappedBy": "body"
+    },
+    "thargoidSites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-thargoid.sites-thargoid",
+      "mappedBy": "body"
     }
   }
 }

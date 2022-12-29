@@ -12,8 +12,56 @@
     "comment": ""
   },
   "attributes": {
-    "test": {
-      "type": "string"
+    "system": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::stellar-system.stellar-system",
+      "inversedBy": "geologySites"
+    },
+    "body": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::stellar-body.stellar-body",
+      "inversedBy": "geologySites"
+    },
+    "siteID": {
+      "type": "customField",
+      "required": true,
+      "customField": "plugin::field-uuid.uuid"
+    },
+    "legacySiteID": {
+      "type": "integer",
+      "min": 1,
+      "unique": false
+    },
+    "latitude": {
+      "type": "float",
+      "required": true,
+      "min": -90,
+      "max": 90
+    },
+    "longitude": {
+      "type": "float",
+      "min": -180,
+      "max": 180
+    },
+    "type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::types-geology.types-geology"
+    },
+    "frontierID": {
+      "type": "integer"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "discoveredBy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cmdr.cmdr"
     }
   }
 }

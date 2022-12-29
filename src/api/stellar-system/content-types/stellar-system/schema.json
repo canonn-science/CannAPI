@@ -47,6 +47,30 @@
       "relation": "oneToMany",
       "target": "api::stellar-body.stellar-body",
       "mappedBy": "system"
+    },
+    "biologySites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-biology.sites-biology",
+      "mappedBy": "system"
+    },
+    "geologySites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-geology.sites-geology",
+      "mappedBy": "system"
+    },
+    "guardianSites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-guardian.sites-guardian",
+      "mappedBy": "system"
+    },
+    "thargoidSites": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sites-thargoid.sites-thargoid",
+      "mappedBy": "system"
     }
   }
 }
