@@ -1,15 +1,34 @@
-
 {
   "kind": "collectionType",
   "collectionName": "blacklists",
   "info": {
     "singularName": "blacklist",
     "pluralName": "blacklists",
-    "displayName": "Blacklists"
+    "displayName": "Blacklists",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "blacklistType": {
+      "type": "enumeration",
+      "enum": [
+        "Client",
+        "CMDR",
+        "Codex",
+        "Event",
+        "FSS"
+      ]
+    },
+    "value": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "reason": {
+      "type": "text"
+    }
+  }
 }

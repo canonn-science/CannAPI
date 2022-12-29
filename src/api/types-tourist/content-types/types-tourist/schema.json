@@ -5,11 +5,40 @@
   "info": {
     "singularName": "types-tourist",
     "pluralName": "types-tourists",
-    "displayName": "Types - Tourist"
+    "displayName": "Types: Tourist"
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "type": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "legacy",
+        "odyssey"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "subCategory": {
+      "type": "string"
+    },
+    "journalName": {
+      "unique": true,
+      "type": "string"
+    },
+    "journalID": {
+      "type": "integer"
+    },
+    "reward": {
+      "type": "integer"
+    }
+  }
 }

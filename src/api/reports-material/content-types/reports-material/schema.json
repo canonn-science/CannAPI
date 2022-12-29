@@ -5,11 +5,73 @@
   "info": {
     "singularName": "reports-material",
     "pluralName": "reports-materials",
-    "displayName": "Reports - Material"
+    "displayName": "Reports: Material"
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "system": {
+      "type": "string",
+      "required": true
+    },
+    "coordX": {
+      "type": "float",
+      "required": true
+    },
+    "coordY": {
+      "type": "float",
+      "required": true
+    },
+    "coordZ": {
+      "type": "float",
+      "required": true
+    },
+    "body": {
+      "type": "string"
+    },
+    "distanceFromMainStar": {
+      "type": "float"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "category": {
+      "type": "string"
+    },
+    "journalName": {
+      "type": "string",
+      "required": true
+    },
+    "count": {
+      "type": "integer"
+    },
+    "factionState": {
+      "type": "string"
+    },
+    "factionAllegiance": {
+      "type": "string"
+    },
+    "collectedFrom": {
+      "type": "enumeration",
+      "required": false,
+      "enum": [
+        "missionReward",
+        "collected",
+        "scanned"
+      ]
+    },
+    "isBeta": {
+      "default": false,
+      "type": "boolean"
+    },
+    "clientVersion": {
+      "type": "string",
+      "required": true
+    }
+  }
 }

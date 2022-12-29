@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-thargoid",
     "pluralName": "sites-thargoids",
-    "displayName": "Sites - Thargoid"
+    "displayName": "Sites: Thargoid"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

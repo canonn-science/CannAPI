@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-geology",
     "pluralName": "sites-geologies",
-    "displayName": "Sites - Geology"
+    "displayName": "Sites: Geology"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

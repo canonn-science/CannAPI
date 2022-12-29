@@ -5,11 +5,15 @@
   "info": {
     "singularName": "meta-guardian-artifact",
     "pluralName": "meta-guardian-artifacts",
-    "displayName": "Meta - Guardian Artifact"
+    "displayName": "Meta: Guardian Artifacts"
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

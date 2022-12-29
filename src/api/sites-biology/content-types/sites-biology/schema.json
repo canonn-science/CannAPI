@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-biology",
     "pluralName": "sites-biologies",
-    "displayName": "Sites - Biology"
+    "displayName": "Sites: Biology"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

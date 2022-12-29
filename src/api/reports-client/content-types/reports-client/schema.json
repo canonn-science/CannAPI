@@ -1,15 +1,34 @@
-
 {
   "kind": "collectionType",
   "collectionName": "reports_clients",
   "info": {
     "singularName": "reports-client",
     "pluralName": "reports-clients",
-    "displayName": "Reports - Client"
+    "displayName": "Reports: Client",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "cmdrName": {
+      "type": "string",
+      "required": true
+    },
+    "isBeta": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "autoUpdateDisabled": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "clientVersion": {
+      "type": "string",
+      "required": true
+    }
+  }
 }

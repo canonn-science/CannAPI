@@ -1,15 +1,56 @@
-
 {
   "kind": "collectionType",
   "collectionName": "reports_events",
   "info": {
     "singularName": "reports-event",
     "pluralName": "reports-events",
-    "displayName": "Reports - Event"
+    "displayName": "Reports: Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "eventName": {
+      "type": "string",
+      "required": true
+    },
+    "eventAltName": {
+      "type": "string"
+    },
+    "cmdrName": {
+      "type": "string",
+      "required": true
+    },
+    "systemName": {
+      "type": "string",
+      "required": true
+    },
+    "bodyName": {
+      "type": "string"
+    },
+    "stationName": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "float"
+    },
+    "longitude": {
+      "type": "float"
+    },
+    "isBeta": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "clientVersion": {
+      "type": "string",
+      "required": true
+    },
+    "rawEvent": {
+      "type": "json",
+      "required": true
+    }
+  }
 }

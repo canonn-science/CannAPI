@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-guardian",
     "pluralName": "sites-guardians",
-    "displayName": "Sites - Guardian"
+    "displayName": "Sites: Guardian"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

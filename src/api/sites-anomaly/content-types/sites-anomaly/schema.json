@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-anomaly",
     "pluralName": "sites-anomalies",
-    "displayName": "Sites - Anomaly"
+    "displayName": "Sites: Anomaly"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

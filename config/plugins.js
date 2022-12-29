@@ -57,30 +57,6 @@ module.exports = ({ env }) => ({
         keysPrefix: 'rest-cache::',
         contentTypes: [
           {
-            contentType: 'api::anomaly-site.anomaly-site',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::biology-site.biology-site',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::cloud-site.cloud-site',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::cmdr.cmdr',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::geology-site.geology-site',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::guardian-site.guardian-site',
-            maxAge: 14400 * 60,
-          },
-          {
             contentType: 'api::stellar-body.stellar-body',
             maxAge: 14400 * 60,
           },
@@ -94,10 +70,6 @@ module.exports = ({ env }) => ({
           },
           {
             contentType: 'api::stellar-system.stellar-system',
-            maxAge: 14400 * 60,
-          },
-          {
-            contentType: 'api::thargoid-site.thargoid-site',
             maxAge: 14400 * 60,
           },
         ]

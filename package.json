@@ -13,19 +13,19 @@
     "pp": "patch-package"
   },
   "dependencies": {
-    "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
-    "@strapi/plugin-sentry": "^4.5.4",
-    "@strapi/plugin-users-permissions": "4.6.0-beta.1",
-    "@strapi/provider-email-sendgrid": "^4.5.4",
-    "@strapi/strapi": "4.6.0-beta.1",
+    "@bn-digital/strapi-plugin-field-uuid": "1.1.7",
+    "@strapi/plugin-sentry": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/provider-email-sendgrid": "4.5.5",
+    "@strapi/strapi": "4.5.5",
     "mysql": "^2.18.1",
-    "passport-discord": "^0.1.4",
-    "patch-package": "^6.5.0",
-    "postinstall-postinstall": "^2.1.0",
-    "strapi-plugin-config-sync": "^1.1.0",
-    "strapi-plugin-redis": "^1.0.1",
-    "strapi-plugin-rest-cache": "^4.2.6",
-    "strapi-provider-rest-cache-redis": "^4.2.5"
+    "passport-discord": "0.1.4",
+    "patch-package": "6.5.0",
+    "postinstall-postinstall": "2.1.0",
+    "strapi-plugin-config-sync": "1.1.0",
+    "strapi-plugin-redis": "1.0.1",
+    "strapi-plugin-rest-cache": "4.2.6",
+    "strapi-provider-rest-cache-redis": "4.2.6"
   },
   "devDependencies": {},
   "author": {

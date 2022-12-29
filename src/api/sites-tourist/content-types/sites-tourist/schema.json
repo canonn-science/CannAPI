@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-tourist",
     "pluralName": "sites-tourists",
-    "displayName": "Sites - Tourist"
+    "displayName": "Sites: Tourist"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

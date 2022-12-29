@@ -5,11 +5,40 @@
   "info": {
     "singularName": "types-guardian",
     "pluralName": "types-guardians",
-    "displayName": "Types - Guardian"
+    "displayName": "Types: Guardian"
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "type": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "legacy",
+        "odyssey"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "subCategory": {
+      "type": "string"
+    },
+    "journalName": {
+      "unique": true,
+      "type": "string"
+    },
+    "journalID": {
+      "type": "integer"
+    },
+    "reward": {
+      "type": "integer"
+    }
+  }
 }

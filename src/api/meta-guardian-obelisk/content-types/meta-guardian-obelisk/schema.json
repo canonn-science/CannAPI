@@ -5,11 +5,15 @@
   "info": {
     "singularName": "meta-guardian-obelisk",
     "pluralName": "meta-guardian-obelisks",
-    "displayName": "Meta - Guardian Obelisk"
+    "displayName": "Meta: Guardian Obelisks"
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }

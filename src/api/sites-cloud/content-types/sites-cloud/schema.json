@@ -5,11 +5,15 @@
   "info": {
     "singularName": "sites-cloud",
     "pluralName": "sites-clouds",
-    "displayName": "Sites - Cloud"
+    "displayName": "Sites: Cloud"
   },
   "options": {
     "draftAndPublish": true,
     "comment": ""
   },
-  "attributes": {}
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
 }
