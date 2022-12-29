@@ -1,19 +1,21 @@
-
 {
   "kind": "collectionType",
   "collectionName": "meta_guardian_artifacts",
   "info": {
     "singularName": "meta-guardian-artifact",
     "pluralName": "meta-guardian-artifacts",
-    "displayName": "Meta: Guardian Artifacts"
+    "displayName": "Meta: Guardian Artifacts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
   "attributes": {
-    "test": {
-      "type": "string"
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

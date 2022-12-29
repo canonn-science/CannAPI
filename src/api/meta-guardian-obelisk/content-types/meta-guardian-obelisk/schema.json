@@ -1,18 +1,72 @@
-
 {
   "kind": "collectionType",
   "collectionName": "meta_guardian_obelisks",
   "info": {
     "singularName": "meta-guardian-obelisk",
     "pluralName": "meta-guardian-obelisks",
-    "displayName": "Meta: Guardian Obelisks"
+    "displayName": "Meta: Guardian Obelisks",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
     "comment": ""
   },
   "attributes": {
-    "test": {
+    "guardianType": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::types-guardian.types-guardian"
+    },
+    "group": {
+      "type": "string",
+      "required": true
+    },
+    "number": {
+      "type": "integer",
+      "required": true
+    },
+    "broken": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "codexCategoryName": {
+      "type": "string"
+    },
+    "codexNumber": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "codexText": {
+      "type": "text"
+    },
+    "codexAudio": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "primaryArtifact": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meta-guardian-artifact.meta-guardian-artifact"
+    },
+    "secondaryArtifact": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meta-guardian-artifact.meta-guardian-artifact"
+    },
+    "meta": {
       "type": "string"
     }
   }
