@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_anomalies",
+  "info": {
+    "singularName": "types-anomaly",
+    "pluralName": "types-anomalies",
+    "displayName": "Types - Anomaly"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

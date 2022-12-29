@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stellar-system",
     "pluralName": "stellar-systems",
-    "displayName": "Stellar - Systems"
+    "displayName": "Stellar - Systems",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
@@ -13,6 +14,39 @@
   "attributes": {
     "systemName": {
       "type": "string"
+    },
+    "id64": {
+      "type": "string"
+    },
+    "edsmID": {
+      "type": "biginteger"
+    },
+    "edsmCoords": {
+      "displayName": "coords",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.coords",
+      "required": false
+    },
+    "missingSkipCount": {
+      "type": "integer"
+    },
+    "primaryStar": {
+      "displayName": "primaryStar",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.primary-star"
+    },
+    "region": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stellar-region.stellar-region"
+    },
+    "bodies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stellar-body.stellar-body",
+      "mappedBy": "system"
     }
   }
 }

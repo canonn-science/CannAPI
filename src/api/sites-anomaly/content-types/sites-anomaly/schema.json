@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "sites_anomalies",
+  "info": {
+    "singularName": "sites-anomaly",
+    "pluralName": "sites-anomalies",
+    "displayName": "Sites - Anomaly"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

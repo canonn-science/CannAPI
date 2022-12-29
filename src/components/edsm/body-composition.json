@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_edsm_body_compositions",
+  "info": {
+    "displayName": "bodyComposition",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metal": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0,
+      "max": 100
+    },
+    "ice": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0,
+      "max": 100
+    },
+    "rock": {
+      "type": "decimal",
+      "default": 0,
+      "min": 0,
+      "max": 100
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "sites_tourists",
+  "info": {
+    "singularName": "sites-tourist",
+    "pluralName": "sites-tourists",
+    "displayName": "Sites - Tourist"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

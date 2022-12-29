@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_tourists",
+  "info": {
+    "singularName": "types-tourist",
+    "pluralName": "types-tourists",
+    "displayName": "Types - Tourist"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

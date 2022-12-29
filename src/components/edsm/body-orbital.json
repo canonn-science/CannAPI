@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_edsm_body_orbitals",
+  "info": {
+    "displayName": "bodyOrbital"
+  },
+  "options": {},
+  "attributes": {
+    "orbitalPeriod": {
+      "type": "float"
+    },
+    "semiMajorAxis": {
+      "type": "float"
+    },
+    "orbitalEccentricity": {
+      "type": "float"
+    },
+    "orbitalInclination": {
+      "type": "float"
+    },
+    "argOfPeriapsis": {
+      "type": "float"
+    },
+    "rotationalPeriod": {
+      "type": "float"
+    },
+    "rotationalPeriodTidallyLocked": {
+      "type": "boolean"
+    },
+    "axialTilt": {
+      "type": "float"
+    }
+  }
+}

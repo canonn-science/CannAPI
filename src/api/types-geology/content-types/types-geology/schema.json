@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_geologies",
+  "info": {
+    "singularName": "types-geology",
+    "pluralName": "types-geologies",
+    "displayName": "Types - Geology"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

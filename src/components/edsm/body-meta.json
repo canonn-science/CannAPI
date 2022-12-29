@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_edsm_body_metas",
+  "info": {
+    "displayName": "bodyMeta"
+  },
+  "options": {},
+  "attributes": {
+    "offset": {
+      "type": "integer"
+    },
+    "distanceToArrival": {
+      "type": "integer"
+    }
+  }
+}

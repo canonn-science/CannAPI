@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "sites_clouds",
+  "info": {
+    "singularName": "sites-cloud",
+    "pluralName": "sites-clouds",
+    "displayName": "Sites - Cloud"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "blacklists",
+  "info": {
+    "singularName": "blacklist",
+    "pluralName": "blacklists",
+    "displayName": "Blacklists"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

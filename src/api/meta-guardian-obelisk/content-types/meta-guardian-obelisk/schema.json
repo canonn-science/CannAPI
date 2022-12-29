@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "meta_guardian_obelisks",
+  "info": {
+    "singularName": "meta-guardian-obelisk",
+    "pluralName": "meta-guardian-obelisks",
+    "displayName": "Meta - Guardian Obelisk"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

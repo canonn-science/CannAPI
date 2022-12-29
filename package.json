@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@bn-digital/strapi-plugin-field-uuid": "^1.1.7",
-    "@strapi/plugin-color-picker": "^4.5.4",
     "@strapi/plugin-sentry": "^4.5.4",
     "@strapi/plugin-users-permissions": "4.6.0-beta.1",
     "@strapi/provider-email-sendgrid": "^4.5.4",
@@ -24,16 +23,11 @@
     "patch-package": "^6.5.0",
     "postinstall-postinstall": "^2.1.0",
     "strapi-plugin-config-sync": "^1.1.0",
-    "strapi-plugin-menus": "^1.2.0",
-    "strapi-plugin-multi-select": "^1.1.0",
     "strapi-plugin-redis": "^1.0.1",
-    "strapi-plugin-rest-cache": "^4.2.5",
+    "strapi-plugin-rest-cache": "^4.2.6",
     "strapi-provider-rest-cache-redis": "^4.2.5"
   },
   "devDependencies": {},
-  "resolutions": {
-    "strapi-plugin-redis": "^1.0.1"
-  },
   "author": {
     "name": "Canonn R&D",
     "email": "rd@canonn.technology",

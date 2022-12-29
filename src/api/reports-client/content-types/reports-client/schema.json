@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "reports_clients",
+  "info": {
+    "singularName": "reports-client",
+    "pluralName": "reports-clients",
+    "displayName": "Reports - Client"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

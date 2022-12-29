@@ -12,7 +12,25 @@
   },
   "attributes": {
     "ringName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "body": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::stellar-body.stellar-body",
+      "inversedBy": "rings"
+    },
+    "type": {
       "type": "string"
+    },
+    "edsmOrbital": {
+      "displayName": "Orbital Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.ring-orbital",
+      "required": false
     }
   }
 }

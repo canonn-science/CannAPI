@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_edsm_body_stars",
+  "info": {
+    "displayName": "bodyStar"
+  },
+  "options": {},
+  "attributes": {
+    "isMainStar": {
+      "type": "boolean"
+    },
+    "isScoopable": {
+      "type": "boolean"
+    },
+    "isLandable": {
+      "type": "boolean"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "luminosity": {
+      "type": "string"
+    },
+    "absoluteMagnitude": {
+      "type": "float"
+    },
+    "solarMasses": {
+      "type": "float"
+    },
+    "solarRadius": {
+      "type": "float"
+    }
+  }
+}

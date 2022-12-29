@@ -12,7 +12,9 @@
   },
   "attributes": {
     "cmdrName": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

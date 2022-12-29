@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "reports_materials",
+  "info": {
+    "singularName": "reports-material",
+    "pluralName": "reports-materials",
+    "displayName": "Reports - Material"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

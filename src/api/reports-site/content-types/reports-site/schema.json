@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "reports_sites",
+  "info": {
+    "singularName": "reports-site",
+    "pluralName": "reports-sites",
+    "displayName": "Reports - Site"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

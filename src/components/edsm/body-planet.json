@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_edsm_body_planets",
+  "info": {
+    "displayName": "bodyPlanet"
+  },
+  "options": {},
+  "attributes": {
+    "gravity": {
+      "type": "float"
+    },
+    "earthMasses": {
+      "type": "float"
+    },
+    "radius": {
+      "type": "float"
+    },
+    "surfacePressure": {
+      "type": "float"
+    },
+    "surfaceTemperature": {
+      "type": "float"
+    },
+    "volcanismType": {
+      "type": "string"
+    },
+    "atmosphereType": {
+      "type": "string"
+    },
+    "terraformingState": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_biologies",
+  "info": {
+    "singularName": "types-biology",
+    "pluralName": "types-biologies",
+    "displayName": "Types - Biology"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

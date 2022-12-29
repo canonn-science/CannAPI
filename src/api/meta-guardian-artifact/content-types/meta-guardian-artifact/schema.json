@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "meta_guardian_artifacts",
+  "info": {
+    "singularName": "meta-guardian-artifact",
+    "pluralName": "meta-guardian-artifacts",
+    "displayName": "Meta - Guardian Artifact"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

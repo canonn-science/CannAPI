@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_guardians",
+  "info": {
+    "singularName": "types-guardian",
+    "pluralName": "types-guardians",
+    "displayName": "Types - Guardian"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_edsm_coords",
+  "info": {
+    "displayName": "coords"
+  },
+  "options": {},
+  "attributes": {
+    "x": {
+      "type": "float"
+    },
+    "y": {
+      "type": "float"
+    },
+    "z": {
+      "type": "float"
+    },
+    "locked": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

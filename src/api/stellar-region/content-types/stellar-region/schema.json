@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stellar-region",
     "pluralName": "stellar-regions",
-    "displayName": "Stellar - Regions"
+    "displayName": "Stellar - Regions",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
@@ -13,6 +14,12 @@
   "attributes": {
     "regionName": {
       "type": "string"
+    },
+    "journalName": {
+      "type": "string"
+    },
+    "regionID": {
+      "type": "integer"
     }
   }
 }

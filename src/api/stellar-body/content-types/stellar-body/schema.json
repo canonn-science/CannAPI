@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stellar-body",
     "pluralName": "stellar-bodies",
-    "displayName": "Stellar - Bodies"
+    "displayName": "Stellar - Bodies",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false,
@@ -12,7 +13,88 @@
   },
   "attributes": {
     "bodyName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "system": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::stellar-system.stellar-system",
+      "inversedBy": "bodies"
+    },
+    "rings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stellar-ring.stellar-ring",
+      "mappedBy": "body"
+    },
+    "id64": {
       "type": "string"
+    },
+    "edsmID": {
+      "type": "integer"
+    },
+    "bodyID": {
+      "type": "integer"
+    },
+    "type": {
+      "type": "string"
+    },
+    "subType": {
+      "type": "string"
+    },
+    "missingSkipCount": {
+      "type": "integer"
+    },
+    "edsmMeta": {
+      "displayName": "Metadata",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-meta",
+      "required": false
+    },
+    "edsmStar": {
+      "displayName": "Star Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-star",
+      "required": false
+    },
+    "edsmPlanet": {
+      "displayName": "Planet Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-planet",
+      "required": false
+    },
+    "edsmOrbital": {
+      "displayName": "Orbital Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-orbital",
+      "required": false
+    },
+    "edsmComposition": {
+      "displayName": "Body Composition",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-composition",
+      "required": false
+    },
+    "edsmAtmosphere": {
+      "displayName": "Body Atmosphere",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-atmosphere",
+      "required": false
+    },
+    "edsmMaterial": {
+      "displayName": "Body Materials",
+      "type": "component",
+      "repeatable": false,
+      "component": "edsm.body-material",
+      "required": false
     }
   }
 }

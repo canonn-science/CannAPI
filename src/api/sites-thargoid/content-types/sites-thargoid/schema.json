@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "sites_thargoids",
+  "info": {
+    "singularName": "sites-thargoid",
+    "pluralName": "sites-thargoids",
+    "displayName": "Sites - Thargoid"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

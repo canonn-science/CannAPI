@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_clouds",
+  "info": {
+    "singularName": "types-cloud",
+    "pluralName": "types-clouds",
+    "displayName": "Types - Cloud"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

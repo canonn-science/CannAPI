@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_edsm_ring_orbitals",
+  "info": {
+    "displayName": "ringOrbital"
+  },
+  "options": {},
+  "attributes": {
+    "mass": {
+      "type": "float"
+    },
+    "innerRadius": {
+      "type": "float"
+    },
+    "outerRadius": {
+      "type": "float"
+    }
+  }
+}

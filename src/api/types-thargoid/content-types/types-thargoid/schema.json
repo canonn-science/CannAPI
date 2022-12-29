@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "types_thargoids",
+  "info": {
+    "singularName": "types-thargoid",
+    "pluralName": "types-thargoids",
+    "displayName": "Types - Thargoid"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}

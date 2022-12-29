@@ -1,0 +1,15 @@
+
+{
+  "kind": "collectionType",
+  "collectionName": "reports_events",
+  "info": {
+    "singularName": "reports-event",
+    "pluralName": "reports-events",
+    "displayName": "Reports - Event"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}
